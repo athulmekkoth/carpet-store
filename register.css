@@ -1,0 +1,116 @@
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  display: flex; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
+  height: 100vh; /* Added */
+
+
+}
+
+.registration-form {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.registration-form h2 {
+  text-align: center;
+  color: #333333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #666666;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #cccccc;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.form-group button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  background-color: #f44336;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.message span {
+  flex-grow: 1;
+}
+
+.message i {
+  cursor: pointer;
+}
+
+.message i:hover {
+  color: #ffffff;
+}
+.login{
+  display: block;
+  margin-top:7px;
+  background-color: yellowgreen;
+  text-decoration: none;
+  padding: 10px;
+  width: 40%;
+  border-radius: 10%;
+  text-decoration: none;
+  color: wheat;
+  margin-left: 20px;
+}
+li{
+  list-style: none;
+}
+.ch{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 0 100px;
+
+ width:60%;
+}
+
+.ch h1{
+  font-size: 1.5rem;
+}
+.message{}

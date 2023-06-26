@@ -1,0 +1,61 @@
+/* admin.css */
+body{
+    margin: 0px;;
+}
+.admin {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(18, 202, 243);
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu li {
+    margin-bottom: 10px;
+    font-size:1em;
+}
+
+.menu li a {
+margin: 0em 1em;    
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: #555;
+}
+.logout{
+    padding: 6px 14px;
+    border:none;
+    border-radius: .2em;
+    background-color: wheat;
+    cursor: pointer;
+
+}
+@media screen and (max-width:768px) {
+    
+h1{
+    font-size: 1.5em;
+}
+    .menu{
+        padding-top: 60px;
+        display:flex;
+        flex-direction: column;
+        font-size: 1.4em;
+
+    }
+}

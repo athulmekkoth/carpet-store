@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf1ec;
+}
+
+/* Product Details */
+.product-details {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 60%;
+  border:2px solid beige;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.product-details img {
+  max-width: 70%;
+  height: 500px;
+  margin-bottom: 10px;
+}
+
+.product-details img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.product-details h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.product-details p {
+  margin-bottom: 10px;
+}
+
+.product-details form {
+  margin-top: 10px;
+}
+
+.product-details input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-details input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.product-details p.message {
+  color: #4CAF50;
+  margin-top: 10px;
+}
+
+/* Additional Styling */
+.product-details {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-details img {
+  width: 100%;
+}
+
+.product-details h1 {
+  font-size: 28px;
+}
+
+.product-details p.price {
+  font-weight: bold;
+}
+
+.product-details p.category {
+  color: #888;
+}
+
+.product-details p.detail {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .product-details {
+    padding: 5px;
+  }
+
+  .product-details img {
+    margin-bottom: 5px;
+  }
+
+  .product-details h1 {
+    font-size: 20px;
+  }
+
+  .product-details input[type="submit"] {
+    padding: 8px 16px;
+  }
+}
+.text-cat{
+  font-size: 1.5rem;
+} 
+.mesg{
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  display: inline;
+  border-radius: 7%;
+}
+.login{
+  background-color: aqua;
+  padding: 10px;
+  margin-top: 15px;
+  color: white;
+  border: none;
+  border-radius: 10%;
+  text-decoration: none;
+}
+@media(max-width:768px) {
+  .product-details img{
+    width: 200px;
+    height: 200px;
+  }
+  .bt{
+    display: flex;
+    flex-direction: column;
+  }
+  .login{
+    width:30%
+  }
+}
